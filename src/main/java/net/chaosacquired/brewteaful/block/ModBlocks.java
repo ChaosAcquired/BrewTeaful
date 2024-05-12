@@ -29,7 +29,8 @@ public class ModBlocks {
     }
 
     private  static <T extends Blocks>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return ModItem.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        RegistryObject<Item> register = ModItem.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        return register;
     }
 
    public static void register(IEventBus eventBus) {
