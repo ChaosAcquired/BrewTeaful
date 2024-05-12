@@ -29,7 +29,7 @@ public class BrewTeaful {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItem.register(modEventBus);
-        ModBlocks.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

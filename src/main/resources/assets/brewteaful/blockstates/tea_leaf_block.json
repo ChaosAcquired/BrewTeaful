@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "brewteaful:block/tea_leaf_block"
+    }
+  }
+}

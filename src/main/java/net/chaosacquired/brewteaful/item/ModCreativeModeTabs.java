@@ -1,6 +1,7 @@
 package net.chaosacquired.brewteaful.item;
 
 import net.chaosacquired.brewteaful.BrewTeaful;
+import net.chaosacquired.brewteaful.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItem.TEALEAF.get());
                         output.accept(ModItem.TEASEEDS.get());
+                        output.accept(ModBlocks.TEA_LEAF_BLOCK.get());
                     } )
                     .build());
 

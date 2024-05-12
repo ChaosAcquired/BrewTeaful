@@ -2,6 +2,8 @@
   "item.brewteaful.tealeaf": "Tea Leaf",
   "item.brewteaful.teaseeds": "Tea Seeds",
 
+  "block.brewteaful.tea_leaf_block": "Block of Tea Leaves",
+
   "creativetab.brewteaful_tab":"BrewTeaful"
 
 }
