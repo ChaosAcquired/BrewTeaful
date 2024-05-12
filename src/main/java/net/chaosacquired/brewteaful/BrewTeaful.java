@@ -1,6 +1,7 @@
 package net.chaosacquired.brewteaful;
 
 import com.mojang.logging.LogUtils;
+import net.chaosacquired.brewteaful.block.ModBlocks;
 import net.chaosacquired.brewteaful.item.ModCreativeModeTabs;
 import net.chaosacquired.brewteaful.item.ModItem;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class BrewTeaful {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItem.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
