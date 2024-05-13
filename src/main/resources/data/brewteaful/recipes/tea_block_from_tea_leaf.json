@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "brewteaful:tealeaf"
+    }
+  },
+  "result": {
+    "item": "brewteaful:tea_leaf_block",
+    "count": 1
+  }
+}

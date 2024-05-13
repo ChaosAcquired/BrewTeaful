@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.TEASEEDS.get());
                         output.accept(ModBlocks.TEA_LEAF_BLOCK.get());
                         output.accept(ModBlocks.PACKED_TEA_BRICKS.get());
+                        output.accept(ModBlocks.PACKED_TEA_LEAVES.get());
                     } )
                     .build());
 

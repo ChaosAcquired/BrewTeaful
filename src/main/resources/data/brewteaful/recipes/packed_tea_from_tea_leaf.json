@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "brewteaful:tealeaf"
+    }
+  },
+
+  "result": {
+    "count": 1,
+    "item": "brewteaful:packed_tea_leaves"
+  }
+}

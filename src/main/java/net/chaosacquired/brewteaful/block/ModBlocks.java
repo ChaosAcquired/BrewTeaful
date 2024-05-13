@@ -32,6 +32,12 @@ public class ModBlocks {
                     .mapColor(MapColor.COLOR_GREEN)
 
             ));
+    public static final RegistryObject<Block> PACKED_TEA_LEAVES = registerBlock("packed_tea_leaves",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.MOSS_BLOCK)
+                    .mapColor(MapColor.COLOR_GREEN)
+
+            ));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

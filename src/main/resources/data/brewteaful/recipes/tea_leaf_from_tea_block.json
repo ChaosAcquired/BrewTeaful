@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "brewteaful:tea_leaf_block"
+    }
+  ],
+  "result": {
+    "item": "brewteaful:tealeaf",
+    "count": 9
+  }
+  }
